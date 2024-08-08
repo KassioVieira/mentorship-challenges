@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 390px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    background-color: #FF8D76;
+    padding-bottom: 20px;
+    height: 188px;
+}
+
+.tabbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    align-items: center;
+}
+
+.pageTitle {
+    color: white;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 1rem;
+}
+
+.picture-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.profile-picture {
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.button-edit{
+    text-align: center;
+    width: 105px;
+    height: 29px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    background-color: #F6F6F6;
+    height: 29px;
+    align-items: center;
+    padding-inline: 16px;
+}
+
+.row-title {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 12px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 16px;
+    padding-block: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.left-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
